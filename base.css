@@ -24,15 +24,46 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: lightgreen;
     min-height: 150px;
 }
+
+img {
+    width: 100%;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+table {
+    border: solid 1px black;
+}
+
+table, td, th{
+    padding: 10px;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+form {
+    margin: 2%;
+}
+
+form > input, label {
+    margin: 5px 5px ;
+}
+button {
+    margin-right: 50px;
+}
+
+.footer li {
+    list-style-type: none;
+}
 .footer {
-    background-color: rgb(99, 56, 240);
+    text-align: center;
+    background-color: lightgreen;
     min-height: 150px;
 }
